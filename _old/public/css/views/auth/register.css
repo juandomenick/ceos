@@ -1,0 +1,25 @@
+#div-cadastro {
+  background-color: #fff;
+  width: 450px;
+  padding: 50px 50px 20px;
+}
+
+@media (max-width: 575.98px) {
+  #div-cadastro {
+    width: auto;
+    padding: 30px 30px 10px;
+    margin: 25px;
+  }
+
+  .form-control, .select2 {
+    margin: 0 15px;
+  }
+
+  .btn-container {
+    margin: 0;
+  }
+
+  .invalid-feedback {
+    margin-left: 15px;
+  }
+}

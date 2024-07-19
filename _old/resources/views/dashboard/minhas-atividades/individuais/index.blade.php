@@ -1,0 +1,1 @@
+@extends('layouts.dashboard.index', ['classesIcone' => 'fas fa-user', 'tituloPagina' => 'Atividades Individuais'])

@@ -1,0 +1,32 @@
+#div-login {
+  background-color: #fff;
+  width: 400px;
+  padding: 50px 50px 30px;
+}
+
+#btn-login-google {
+  color: #858585;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+#btn-modal-sobre {
+  color: #333;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.modal-body p {
+  text-indent: 50px;
+}
+
+@media (max-width: 575.98px) {
+  #div-login {
+    width: auto;
+    padding: 30px 30px 10px;
+  }
+}
