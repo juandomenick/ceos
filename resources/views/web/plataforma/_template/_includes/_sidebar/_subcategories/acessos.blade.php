@@ -13,7 +13,7 @@
                     <a href="{{ route('web.plataforma.acessos.pessoas.listar') }}">
                         Listar
                     </a>
-                    <a href="{{ route('web.plataforma.acessos.pessoas.cadastrar') }}">
+                    <a href="#">
                         Cadastrar
                     </a>
                 </li>

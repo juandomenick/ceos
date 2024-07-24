@@ -1,6 +1,6 @@
 <div class="d-flex p-1">
-    <form id="limite" class="mr-3">
-        <select class="form-control select2" name="Limit" id="Limit" style="width: 100px">
+    <form id="limite" class="mr-3" style="width: 100px">
+        <select class="form-control border-secondary select2" name="Limit" id="Limit">
             <option value="10">10</option>
             <option value="25" selected>25</option>
             <option value="50">50</option>

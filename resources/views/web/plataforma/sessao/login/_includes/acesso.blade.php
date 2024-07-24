@@ -1,7 +1,7 @@
-<div class="form-form">
+<div class="form-form align-middle">
     <div class="row justify-content-center m-0">
-        <div class="col-lg-6 p-5">
-            <div class="form-form-wrap">
+        <div class="col-lg-10 p-5">
+            <div class="form-form-wrap h-auto">
                 <div class="form-container p-0">
                     <div class="form-content">
                         <h1 class="text-primary">

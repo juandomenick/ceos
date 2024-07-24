@@ -1,6 +1,5 @@
-$(function(){
+$(function () {
     $(".select2").select2({
-        width: '100%',
         placeholder: $(this).prop('placeholder')
     });
 
@@ -13,5 +12,16 @@ $(function(){
             select2.addClass('border-danger')
         }
     });
+
+    $('form').on('submit', function () {
+        $("button").prop('type', 'submit')
+            .append('<div class="spinner-border ml-2" id="btn-loading" style="height:1rem; width: 1rem;"></div>')
+            .prop('disabled', true)
+            .css({
+                'pointer-events': 'none',
+                'transition': 'none',
+                'animation': 'none'
+            })
+    })
 });
 

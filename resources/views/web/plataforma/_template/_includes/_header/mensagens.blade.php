@@ -16,7 +16,9 @@
                         <div class="media-body">
                             <div class="">
                                 <h5 class="usr-name">Kara Young</h5>
-                                <p class="msg-title">ACCOUNT UPDATE</p>
+                                <p class="msg-title">
+                                    Aluno
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -33,7 +35,9 @@
                         <div class="media-body">
                             <div class="">
                                 <h5 class="usr-name">Daisy Anderson</h5>
-                                <p class="msg-title">ACCOUNT UPDATE</p>
+                                <p class="msg-title">
+                                    Aluno
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +54,9 @@
                         <div class="media-body">
                             <div class="">
                                 <h5 class="usr-name">Oscar Garner</h5>
-                                <p class="msg-title">ACCOUNT UPDATE</p>
+                                <p class="msg-title">
+                                    Professor
+                                </p>
                             </div>
                         </div>
                     </div>

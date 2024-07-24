@@ -28,9 +28,13 @@ class HomeController extends Controller
         // VARIÁVEIS DA VIEW
         $data['view'] = [
             'titulo' => 'CEOS',
-            'icone' => 'home',
             'descricao' => 'Comunidade Escolar Online Simplificada',
         ];
+
+        // $data['feedbacks']['sucesso'][] = 'deu certo';
+        // $data['feedbacks']['erro'][] = 'nao deu certo deu erro';
+        // $data['feedbacks']['informacao'][] = 'nova notificação';
+        // $data['feedbacks']['atencao'][] = 'alerta';
 
         // VIEW
         return view('web.plataforma.home.index', $data);

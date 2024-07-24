@@ -334,9 +334,10 @@ code {
     color: #11029b;
 }
 
-.header-container .sidebarCollapse svg {
+.header-container .sidebarCollapse i {
     width: 27px;
     height: 27px;
+    margin-left: 40px;
 }
 
 .navbar-expand-sm .navbar-item .nav-link {
@@ -705,7 +706,7 @@ code {
     margin: 0;
 }
 
-.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu svg {
+.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu i {
     width: 23px;
     height: 23px;
     font-weight: 600;
@@ -754,22 +755,22 @@ code {
     white-space: normal;
 }
 
-.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .icon-status svg {
+.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .icon-status i {
     margin: 0;
 }
 
-.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .icon-status svg.feather-x {
+.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .icon-status i.feather-x {
     color: #bfc9d4;
     width: 19px;
     height: 19px;
     cursor: pointer;
 }
 
-.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .icon-status svg.feather-x:hover {
+.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .icon-status i.feather-x:hover {
     color: #e7515a;
 }
 
-.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .icon-status svg.feather-check {
+.navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .icon-status i.feather-check {
     color: #fff;
     background: #0d9a5d;
     border-radius: 50%;
@@ -955,7 +956,7 @@ code {
     border-bottom: 1px solid #ebedf2;
 }
 
-.navbar .navbar-item .nav-item.user-profile-dropdown .dropdown-menu .dropdown-item svg {
+.navbar .navbar-item .nav-item.user-profile-dropdown .dropdown-menu .dropdown-item i {
     width: 17px;
     margin-right: 7px;
     height: 17px;
@@ -1384,7 +1385,7 @@ code {
         display: block;
     }
 
-    .header-container .sidebarCollapse svg {
+    .header-container .sidebarCollapse i {
         width: 21px;
         height: 21px;
     }
@@ -1662,4 +1663,8 @@ code {
     .navbar .navbar-item .nav-item form.form-inline input.search-form-control {
         padding-top: 8px;
     }
+}
+
+.navbar-logo {
+    color: #11029b
 }

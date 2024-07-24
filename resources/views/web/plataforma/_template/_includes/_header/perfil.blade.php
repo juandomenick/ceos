@@ -7,8 +7,7 @@
             <div class="media mx-auto">
                 <img src="{{ asset('web/plataforma/img/usuarios/' . (session()->get('login.Avatar') ?? '_avatar.png')) }}" class="img-fluid mr-2" alt="avatar">
                 <div class="media-body">
-                    <h5>Alan Green</h5>
-                    <p>Project Leader</p>
+                    <h5>{{ session()->get('login.NomePessoa') }}</h5>
                 </div>
             </div>
         </div>

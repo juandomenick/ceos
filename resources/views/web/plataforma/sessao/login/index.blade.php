@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/css/authentication/form-1.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/css/forms/theme-checkbox-radio.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/css/forms/switches.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/plugins/select2/select2.css') }}">
 </head>
 
 <body class="form">
@@ -36,6 +37,8 @@
     <script src="{{ asset('web/plataforma/plugins/bootstrap/js/popper.min.js') }}"></script>
     <script src="{{ asset('web/plataforma/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('web/plataforma/js/authentication/form-1.js') }}"></script>
+    <script src="{{ asset('web/plataforma/plugins/select2/select2.js') }}"></script>
+    <script src="{{ asset('web/plataforma/js/main.js') }}"></script>
 </body>
 
 </html>

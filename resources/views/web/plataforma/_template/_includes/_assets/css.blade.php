@@ -3,6 +3,7 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/plugins/bootstrap/css/bootstrap.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/plugins/perfect-scrollbar/perfect-scrollbar.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/plugins/font-awesome/css/all.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/plugins/select2/select2.css') }}">
 
 <link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/css/main.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('web/plataforma/css/plugins.css') }}">
