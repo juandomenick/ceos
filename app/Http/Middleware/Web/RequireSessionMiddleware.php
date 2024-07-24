@@ -30,7 +30,7 @@ class RequireSessionMiddleware
             return $next($request);
         } else {
             return redirect()->route('web.plataforma.login')
-                ->with(Route::currentRouteName() != 'home' ? ['atencao' => $login['mensagem']] : []);
+                ->with(Route::currentRouteName() != 'web.plataforma.home' ? ['atencao' => $login['mensagem']] : []);
         }
     }
 }
